@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/markabraham/static/css/main.d798145d.css",
+    "main.js": "/markabraham/static/js/main.d0ffc181.js",
+    "static/js/787.3fa1ac96.chunk.js": "/markabraham/static/js/787.3fa1ac96.chunk.js",
+    "static/media/background-video.mp4": "/markabraham/static/media/background-video.c25abdade54bfc03578f.mp4",
+    "static/media/python.png": "/markabraham/static/media/python.dea924d737bb84eb9ce3.png",
+    "static/media/postgres.png": "/markabraham/static/media/postgres.c8891cc79d21bc263a06.png",
+    "static/media/resume.jpeg": "/markabraham/static/media/resume.74d17f5592ccb175ecf0.jpeg",
+    "static/media/react.png": "/markabraham/static/media/react.73dbb5bcec516da82694.png",
+    "static/media/golang.png": "/markabraham/static/media/golang.3579b5817dea2ab8fa2f.png",
+    "static/media/cplusplus.png": "/markabraham/static/media/cplusplus.3f8430b31b0960aae7e0.png",
+    "static/media/mysql.png": "/markabraham/static/media/mysql.37ec008309d26b56ed3e.png",
+    "static/media/spotify.jpeg": "/markabraham/static/media/spotify.560373993d65d91cc427.jpeg",
+    "static/media/docker.webp": "/markabraham/static/media/docker.3d93d9e4a5cea55ed653.webp",
+    "static/media/nodejs.webp": "/markabraham/static/media/nodejs.1389bb9f9dc11fadc873.webp",
+    "index.html": "/markabraham/index.html",
+    "main.d798145d.css.map": "/markabraham/static/css/main.d798145d.css.map",
+    "main.d0ffc181.js.map": "/markabraham/static/js/main.d0ffc181.js.map",
+    "787.3fa1ac96.chunk.js.map": "/markabraham/static/js/787.3fa1ac96.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d798145d.css",
+    "static/js/main.d0ffc181.js"
+  ]
+}
