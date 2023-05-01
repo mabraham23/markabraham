@@ -2,7 +2,7 @@
   "name": "marks-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mabraham23.github.io/markabraham",
+  "homepage": "https://mabraham23.github.io/markabraham/",
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
