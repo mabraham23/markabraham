@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "https://mabraham23.github.io/markabraham/static/css/main.6dd662b7.css",
-    "main.js": "https://mabraham23.github.io/markabraham/static/js/main.0287747e.js",
+    "main.css": "https://mabraham23.github.io/markabraham/static/css/main.e200bc95.css",
+    "main.js": "https://mabraham23.github.io/markabraham/static/js/main.e482b8e1.js",
     "static/js/787.3fa1ac96.chunk.js": "https://mabraham23.github.io/markabraham/static/js/787.3fa1ac96.chunk.js",
     "static/media/background-video.mp4": "https://mabraham23.github.io/markabraham/static/media/background-video.7f9b95cc1f79e24da280.mp4",
     "static/media/python.png": "https://mabraham23.github.io/markabraham/static/media/python.dea924d737bb84eb9ce3.png",
@@ -15,12 +15,12 @@
     "static/media/docker.webp": "https://mabraham23.github.io/markabraham/static/media/docker.3d93d9e4a5cea55ed653.webp",
     "static/media/nodejs.webp": "https://mabraham23.github.io/markabraham/static/media/nodejs.1389bb9f9dc11fadc873.webp",
     "index.html": "https://mabraham23.github.io/markabraham/index.html",
-    "main.6dd662b7.css.map": "https://mabraham23.github.io/markabraham/static/css/main.6dd662b7.css.map",
-    "main.0287747e.js.map": "https://mabraham23.github.io/markabraham/static/js/main.0287747e.js.map",
+    "main.e200bc95.css.map": "https://mabraham23.github.io/markabraham/static/css/main.e200bc95.css.map",
+    "main.e482b8e1.js.map": "https://mabraham23.github.io/markabraham/static/js/main.e482b8e1.js.map",
     "787.3fa1ac96.chunk.js.map": "https://mabraham23.github.io/markabraham/static/js/787.3fa1ac96.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6dd662b7.css",
-    "static/js/main.0287747e.js"
+    "static/css/main.e200bc95.css",
+    "static/js/main.e482b8e1.js"
   ]
 }
