@@ -1,0 +1,63 @@
+.home-container {
+    position: relative;
+  }
+  
+  .background-video-container {
+    position: relative;
+  }
+  
+  .background-video-container video {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+  }
+  
+  .typing-text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 4rem;
+    text-align: center;
+    color: #fff;
+  
+    @media (max-width: 1200px) {
+      font-size: 3rem;
+    }
+  
+    @media (max-width: 900px) {
+      font-size: 2rem;
+    }
+  
+    @media (max-width: 600px) {
+      font-size: 1.5rem;
+    }
+  }
+  
+  
+  .proficiencies-container {
+    padding: 50px;
+  }
+  
+  .proficiency-container {
+    margin-bottom: 50px;
+  }
+
+  .about-me-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #about-me {
+    font-size: 10rem;
+  }
+  

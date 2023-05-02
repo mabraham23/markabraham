@@ -1,81 +1,52 @@
 import React from "react";
-import Grid from "@mui/material/Grid";
-import { Box } from "@mui/system";
 import backgroundVideo from "../assets/background-video.mp4";
 import Proficiency from "../components/Proficiency";
 import TypingText from "../components/TypingText";
 import proficiencies from "./proficiencyData";
+import './Home.css';
 
 export default function Home() {
   return (
-    <Box>
-      <Box
-        sx={{
-          flexGrow: 1,
-          position: "relative",
-          height: "100vh",
-        }}
-      >
-        <video
-          muted
-          loop
-          autoPlay
-          style={{
-            position: "absolute",
-            width: "100%",
-            height: "auto",
-            zIndex: -1,
-          }}
-        >
+    <div className="home-container">
+      <div className="background-video-container">
+        <video muted loop autoPlay>
           <source src={backgroundVideo} type="video/mp4" />
         </video>
-        <Grid
-          container
-          justifyContent="center"
-          alignItems="center"
-          sx={{
-            position: "absolute",
-            top: "45%",
-            left: "50%",
-            transform: "translate(-50%, -50%)",
-            height: "100%",
-            width: "100%",
-            fontWeight: "bold",
-            fontSize: "5rem",
-            textAlign: "center",
-            color: "#fff",
-            "@media (max-width: 1200px)": {
-              top: "30%",
-              fontSize: "4rem",
-            },
-            "@media (max-width: 900px)": {
-              top: "20%",
-              fontSize: "3rem",
-            },
-            "@media (max-width: 600px)": {
-              top: "15%",
-              fontSize: "2.5rem",
-            },
-          }}
-        >
-          <TypingText text="Mark Abraham Software Engineer" />
-        </Grid>
-      </Box>
+        <div className="typing-text-container">
+          <TypingText
+            text="Mark Abraham#Software Engineer#💻"
+            className="typing-text"
+            speed={30}
+          />
+        </div>
+      </div>
 
-      <Box sx={{ padding: 10, paddingLeft: 20 }}>
-        <Grid container spacing={10}>
-          {proficiencies.map((proficiency, index) => (
-            <Grid item xs={12} sm={6} md={5} key={proficiency.title}>
+      <div className="about-me-container">
+        <TypingText
+          text="About Me:# - I am a problem solver 💡#- I am passionate about technology 🔋#- I am a team player 🤝#- I love playing disc golf 🥏 :)"
+          className="about-me"
+          speed={30}
+        />
+      </div>
+
+      <div className="proficiencies-container">
+          <TypingText
+            text="Some of my proficiencies:"
+            className="proficiencies-title"
+            speed={30}
+          />
+        <div className="proficiencies">
+          {proficiencies.map((proficiency) => (
+            <div className="proficiency-container" key={proficiency.title}>
               <Proficiency
-                title={proficiency.title}
-                description={proficiency.description}
                 image={proficiency.image}
-                reverse={index % 2 !== 0}
+                description={proficiency.description}
               />
-            </Grid>
+            </div>
           ))}
-        </Grid>
-      </Box>
-    </Box>
+        </div>
+      </div>
+    </div>
   );
 }
+
